@@ -2,7 +2,7 @@
 
 A beautiful, responsive, and feature-rich portfolio website built with Next.js 13, TypeScript, Tailwind CSS, and shadcn/ui components. This portfolio template is perfect for developers, designers, and other professionals looking to showcase their work in a modern and elegant way.
 
-![Portfolio Preview](https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&q=80)
+![Portfolio Preview](capture.png)
 
 ## ✨ Features
 
@@ -46,16 +46,19 @@ A beautiful, responsive, and feature-rich portfolio website built with Next.js 1
 ## 🛠️ Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/yourusername/portfolio-website.git
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    ```
 
 3. Run the development server:
+
    ```bash
    npm run dev
    ```
@@ -65,7 +68,9 @@ A beautiful, responsive, and feature-rich portfolio website built with Next.js 1
 ## 🎨 Customization
 
 ### Personal Information
+
 Edit the content in `app/page.tsx` to update:
+
 - Name and title
 - Contact information
 - About me section
@@ -75,11 +80,13 @@ Edit the content in `app/page.tsx` to update:
 - Education
 
 ### Styling
+
 - Colors: Modify the CSS variables in `app/globals.css`
 - Typography: Update the font in `app/layout.tsx`
 - Components: Customize shadcn/ui components in `components/ui/`
 
 ### Images
+
 - Replace the banner image URL
 - Update project images
 - Change profile picture
@@ -87,11 +94,13 @@ Edit the content in `app/page.tsx` to update:
 ## 📱 Responsive Design
 
 The portfolio is fully responsive with breakpoints for:
+
 - Mobile: < 640px
 - Tablet: 640px - 1024px
 - Desktop: > 1024px
 
 Features include:
+
 - Hamburger menu for mobile navigation
 - Responsive grid layouts
 - Flexible image sizing
@@ -101,6 +110,7 @@ Features include:
 ## ⚡ Performance
 
 The website is optimized for performance:
+
 - Static site generation
 - Optimized images with Next.js Image component
 - Minimal JavaScript
@@ -113,6 +123,7 @@ The website is optimized for performance:
 The project is configured for static exports and can be deployed to any static hosting platform:
 
 1. Build the project:
+
    ```bash
    npm run build
    ```
